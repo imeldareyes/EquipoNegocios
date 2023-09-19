@@ -3,7 +3,6 @@ function validateForm(){
     let name = document.getElementById('inputName').value;
     let date = document.getElementById('inputDate').value;
 
-
     if (name == "") {
         alert('El Producto es requerido');
         return false;
